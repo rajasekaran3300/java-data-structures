@@ -15,8 +15,13 @@ public class Main {
         singlyLinkedList.insertAtEnd(3);
         singlyLinkedList.insertAtEnd(4);
         singlyLinkedList.insertAtEnd(5);
-        singlyLinkedList.insetAtPosition(20,2);
+        singlyLinkedList.insertAtEnd(6);
+//        singlyLinkedList.insetAtPosition(20,2);
+        singlyLinkedList.deleteAtBegining();
+        singlyLinkedList.deleteAtEnd();
+        singlyLinkedList.deleteAtEnd();
         singlyLinkedList.display();
+        System.out.println();
         System.out.println(singlyLinkedList.size()+" : size");
     }
 }

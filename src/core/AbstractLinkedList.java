@@ -23,7 +23,7 @@ public abstract class AbstractLinkedList implements MyLinkedList {
 
         }
         while (temp!=null){
-            System.out.println(temp.data+" ");
+            System.out.print(temp.data+"->");
             temp = temp.next;
         }
     }

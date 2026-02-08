@@ -6,4 +6,7 @@ public interface MyLinkedList {
     void display();
     void insertAtEnd(int data);
     void insetAtPosition(int data , int position);
+    void deleteAtBegining();
+    void deleteAtEnd();
+    void deleteAtSpecificPosition(int pos);
 }
